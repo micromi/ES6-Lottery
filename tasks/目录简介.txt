@@ -1,0 +1,14 @@
+tasks 构建任务目录
+  功能：创建任务js
+
+util目录：
+argv.js  // 处理命令行参数
+
+scripts.js  // 处理js的脚本
+pages.js  // 模板处理的脚本
+css.js      // css处理的脚本
+server.js // 处理服务器的脚本
+browser.js // 浏览器监听相关的脚本
+clean.js // 清空目录文件
+build.js // 将所有的任务串起来
+default.js // gulp执行默认的任务
